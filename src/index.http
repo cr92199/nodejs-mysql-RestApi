@@ -1,0 +1,35 @@
+### listar empleados
+GET http://localhost:3000/api/employe
+
+### listar un empleado
+GET http://localhost:3000/api/employe/1
+
+### CREAR empleado
+POST http://localhost:3000/api/employe
+Content-Type: application/json
+
+{
+    "name": "jean",
+    "salary": 3000
+}
+
+### ACTUALIZAR
+PUT http://localhost:3000/api/employe/2
+Content-Type: application/json
+
+{
+    "name": "jean",
+    "salary": 2500
+}
+
+### ACTUALIZAR patch
+PATCH  http://localhost:3000/api/employe/3
+Content-Type: application/json
+
+{
+    "name": "luis"
+}
+
+
+### ELIMINAR
+DELETE http://localhost:3000/api/employe/10
