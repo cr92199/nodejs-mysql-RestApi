@@ -33,3 +33,12 @@ Content-Type: application/json
 
 ### ELIMINAR
 DELETE http://localhost:3000/api/employe/10
+
+
+### post apiRest
+PATCH https://nodejs-mysql-restapi-production-4e3e.up.railway.app/api/employe/3
+Content-Type: application/json
+
+{
+    "name": "luis"
+}

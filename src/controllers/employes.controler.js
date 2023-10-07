@@ -61,6 +61,7 @@ export const postEmolye = async (req, res) => {
 
 export const deleteEmploye = async (req, res) => {
   const { id } = req.params;
+
   console.log(id);
   try {
     const [result] = await pool.query(
